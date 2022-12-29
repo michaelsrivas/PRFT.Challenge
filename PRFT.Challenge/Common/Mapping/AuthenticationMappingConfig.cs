@@ -4,7 +4,7 @@ using PRFT.Challenge.Application.Authentication.Common;
 using PRFT.Challenge.Application.Authentication.Queries.Login;
 using PRFT.Challenge.Contracts.Authentication;
 
-namespace PRFT.Challenge.Api.Mapping;
+namespace PRFT.Challenge.Api.Common.Mapping;
 
 public class AuthenticationMappingConfig : IRegister
 {

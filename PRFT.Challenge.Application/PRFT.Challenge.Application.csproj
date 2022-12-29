@@ -18,4 +18,11 @@
     <ProjectReference Include="..\PRFT.Challenge.Domain\PRFT.Challenge.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Branches\Common\" />
+    <Folder Include="Branches\Queries\" />
+    <Folder Include="Clients\Common\" />
+    <Folder Include="Clients\Queries\" />
+  </ItemGroup>
+
 </Project>

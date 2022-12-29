@@ -2,7 +2,7 @@
 using MapsterMapper;
 using System.Reflection;
 
-namespace PRFT.Challenge.Api.Mapping;
+namespace PRFT.Challenge.Api.Common.Mapping;
 
 public static class DependencyInjection
 {

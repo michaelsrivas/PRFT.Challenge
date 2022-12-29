@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using PRFT.Challenge.Api.Http;
+using PRFT.Challenge.Api.Common.Http;
 
 namespace PRFT.Challenge.Api.Controllers;
 

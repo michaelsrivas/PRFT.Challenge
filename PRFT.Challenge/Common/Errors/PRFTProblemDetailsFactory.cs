@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
-using PRFT.Challenge.Api.Http;
+using PRFT.Challenge.Api.Common.Http;
 using System.Diagnostics;
 
-namespace PRFT.Challenge.Api.Errors;
+namespace PRFT.Challenge.Api.Common.Errors;
 
 public class PRFTProblemDetailsFactory : ProblemDetailsFactory
 {
@@ -99,7 +99,7 @@ public class PRFTProblemDetailsFactory : ProblemDetailsFactory
 
         var errors = httpContext?.Items[HttpContextItemKeys.Errors] as List<Error>;
 
-        if(errors is not null)
+        if (errors is not null)
         {
             problemDetails.Extensions.Add("errorCodes", errors.Select(e => e.Code));
         }

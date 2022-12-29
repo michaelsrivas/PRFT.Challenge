@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.Infrastructure;
-using PRFT.Challenge.Api.Errors;
-using PRFT.Challenge.Api.Mapping;
+using PRFT.Challenge.Api.Common.Errors;
+using PRFT.Challenge.Api.Common.Mapping;
 
 namespace PRFT.Challenge.Api;
 

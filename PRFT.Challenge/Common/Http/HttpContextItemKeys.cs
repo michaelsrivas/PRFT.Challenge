@@ -1,4 +1,4 @@
-﻿namespace PRFT.Challenge.Api.Http;
+﻿namespace PRFT.Challenge.Api.Common.Http;
 
 public static class HttpContextItemKeys
 {
